@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--bhb);
+}
+
+main {
+
+    margin: 0;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.card{
+    height: 50vh;
+    width: 420px;
+    margin: 0;
+    padding: 1vw;
+    color: var(--bhb);
+}
+
+.yellow__card{
+    background-color: var(--orange);
+}
+
+.blue__card{
+    background-color: var(--cyan);
+}
+
+.green__card{
+    background-color: var(--darkCyan);
+}
+
+p{
+    font: var(--Deca);
+}
