@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;400&display=swap');
 :root{
     /*Primary*/
    --orange: hsl(31, 77%, 52%);
@@ -10,7 +10,7 @@
    --bhb: hsl(0, 0%, 95%); /*background, headings, buttons*/
    /*Text size*/
    /*Font*/
-   --Deca: 200 15px 'Lexend Deca', sans-serif;
-   --BSD: 700 15px 'Big Shoulders Display', cursive;
+   --Deca: lighter 15px 'Lexend Deca', sans-serif;
+   --BSD:  2rem 'Big Shoulders Display', cursive;
 }
 
